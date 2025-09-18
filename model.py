@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from PLA import SiAttention
+from SA import SiAttention
 
 from einops import rearrange, einsum
 
